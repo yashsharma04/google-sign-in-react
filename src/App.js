@@ -25,7 +25,7 @@ function App() {
   useEffect(() => {
     window.gapi.load('auth2', () => {
       window.gapi.auth2.init({
-      client_id: "815037602504-n58kiiv3eprss2d98vi385ck32givm2e.apps.googleusercontent.com"
+      client_id: "add your client id here"
   }).then(() => {
       window.gapi.signin2.render('my-signIn', {
         'scope': 'profile email',
